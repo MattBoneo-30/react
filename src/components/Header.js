@@ -2,8 +2,8 @@ import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuIt
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-    { name: 'Dashboard', href: '#', current: true },
-    { name: 'Team', href: '#', current: false },
+    { name: 'Employees', href: '/Employees', current: true },
+    { name: 'Customers', href: '/Customers', current: false },
     { name: 'Projects', href: '#', current: false },
     { name: 'Calendar', href: '#', current: false },
 ]
@@ -31,7 +31,7 @@ export default function Header(props) {
                         <div className="flex flex-shrink-0 items-center">
                             <img
                                 alt="Your Company"
-                                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                                src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/webpack/webpack-original.svg"
                                 className="h-8 w-auto"
                             />
                         </div>
@@ -123,6 +123,8 @@ export default function Header(props) {
             
         </>  
         {props.children}   
+        <footer bg='white'>Matt Boneo</footer>
+
         </Disclosure>
         
     )
