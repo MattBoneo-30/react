@@ -13,7 +13,7 @@ function Employees() {
         id: 1,
         name: "Matt Boneo", 
         role: "Developer", 
-        img: "https://scontent.fmnl25-3.fna.fbcdn.net/v/t39.30808-6/357737218_1696117677480462_3329789873805965179_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=hHbi-V2v2kEQ7kNvgGjUg9-&_nc_ht=scontent.fmnl25-3.fna&oh=00_AYBc79GPob563-9kRgbsknbEie-QMOpmAyQVD3QYvsdhEQ&oe=66A406E0"
+        img: "https://scontent.fmnl25-3.fna.fbcdn.net/v/t39.30808-6/357737218_1696117677480462_3329789873805965179_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=8oqbu5CRYtoQ7kNvgFVQh8O&_nc_ht=scontent.fmnl25-3.fna&oh=00_AYCz1ple-LCpCA-LhpoSxEi9b0xpyH64-0pGe23vV7PDbw&oe=66AE2260"
       },
       {
         id: 2,
@@ -72,12 +72,12 @@ function Employees() {
   const showEmployees = true; 
   return (
 //main body <Header /> under here
-    <div className="App bg-gray-300 min-h-screen">
+    <div className="">
       {showEmployees ? (
 
 //for employee box
         <>
-    <div className= "flex flex-wrap justify-center">
+    <div className= "flex flex-wrap justify-center ">
       {employees.map((employee) => { 
         const editEmployee = (
           <EditEmployee 
