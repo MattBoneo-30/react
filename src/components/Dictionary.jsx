@@ -1,3 +1,5 @@
+// import statement indicates that you import get something from others
+
 import {useState} from 'react';
 
 export default function Dictionary() {

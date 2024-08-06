@@ -12,6 +12,9 @@ import Dictionary from './components/Dictionary';
 
 function App() {
 
+
+  //This is the body of the main body of the system where in it connects pages and components
+  
   return (
     <BrowserRouter>
       <Header>
