@@ -1,3 +1,5 @@
+// import statement indicates that you import get something from others
+
 import './index.css';
 import Employee from './components/Employee';
 import { useState } from 'react';
@@ -10,6 +12,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Customers from './Pages/Customers';
 import Dictionary from './components/Dictionary';
 
+
+//this sectio call the App.js file
 function App() {
 
 
@@ -28,4 +32,6 @@ function App() {
   )
 }
 
+
+// you need to export default every pages
 export default App;
